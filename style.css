@@ -1,3 +1,25 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100vh;
+    width: 100vw;
+}
 body {
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.profile_box {
+    height: 74dvh;
+    width: 27dvw;
+    background-color: green;
+    border-radius: 20px;
 }

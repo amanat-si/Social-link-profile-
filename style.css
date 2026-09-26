@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 html {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 body {
     background-color: black;
@@ -18,8 +18,20 @@ body {
 }
 
 .profile_box {
-    height: 74dvh;
-    width: 27dvw;
-    background-color: green;
+    height: 74vh;
+    width: 27vw;
+    background-color: rgb(35, 35, 35);
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-circle {
+    height: 10vh;
+    width: 10vh;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 50%;
+    background-image: url('avatar-jessica.jpeg');
+    background-size: cover;
 }

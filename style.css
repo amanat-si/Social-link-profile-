@@ -28,6 +28,7 @@ body {
     justify-content: center;
     text-align: center;
     color: white;
+    transition: 0.35s;
 }
 
 .profile-circle {
@@ -39,6 +40,10 @@ body {
     border-radius: 50%;
     background-image: url('avatar-jessica.jpeg');
     background-size: cover;
+}
+
+.profile_box:hover {
+    box-shadow: 0px 0px 15px 2px hsl(75, 94%, 57%);
 }
 
 .line-a {

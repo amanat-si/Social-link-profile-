@@ -19,8 +19,8 @@ body {
 }
 
 .profile_box {
-    height: 70vh;
-    width: 24vw;
+    height: 600px;
+    width: 350px;
     background-color: rgb(35, 35, 35);
     border-radius: 20px;
     display: flex;
@@ -31,8 +31,8 @@ body {
 }
 
 .profile-circle {
-    height: 10vh;
-    width: 10vh;
+    height: 11vh;
+    width: 11vh;
     background-color: white;
     margin-top: 50px;
     margin : 25px auto;
@@ -90,3 +90,5 @@ main :hover {
     color: black;
     font-weight: 500;
 }
+/* for mobile  */
+@media 

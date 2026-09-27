@@ -15,6 +15,7 @@ body {
     align-items: center;
     height: 100%;
     width: 100%;
+    font-family: "inter", sans-serif;
 }
 
 .profile_box {
@@ -24,6 +25,8 @@ body {
     border-radius: 20px;
     display: flex;
     justify-content: center;
+    text-align: center;
+    color: white;
 }
 
 .profile-circle {
@@ -31,7 +34,27 @@ body {
     width: 10vh;
     background-color: white;
     margin-top: 50px;
+    margin : 25px auto;
     border-radius: 50%;
     background-image: url('avatar-jessica.jpeg');
     background-size: cover;
+}
+
+.line-a {
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.line-b {
+    margin-top: 6px;
+    color: hsl(75, 94%, 57%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.line-c {
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(180, 179, 179);
 }

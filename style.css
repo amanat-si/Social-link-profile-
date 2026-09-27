@@ -82,3 +82,11 @@ main {
 p {
     margin:auto;
 }
+
+/* animmation  */
+
+main :hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    font-weight: 500;
+}
